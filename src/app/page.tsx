@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Flashcard from "@/components/flashcard";
 
 export default function Home() {
   return (
     <main>
-      <p>Hello, World!</p>
+      <Flashcard question="Hello, World!" answer="World, Hello!" />
     </main>
   );
 }
